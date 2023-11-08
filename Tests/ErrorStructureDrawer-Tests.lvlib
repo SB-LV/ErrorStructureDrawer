@@ -19,5 +19,7 @@
 		<Item Name="9.vi" Type="VI" URL="../9.vi"/>
 		<Item Name="10.vi" Type="VI" URL="../10.vi"/>
 		<Item Name="11.vi" Type="VI" URL="../11.vi"/>
+		<Item Name="12.vi" Type="VI" URL="../12.vi"/>
+		<Item Name="13.vi" Type="VI" URL="../13.vi"/>
 	</Item>
 </Library>

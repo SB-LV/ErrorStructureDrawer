@@ -55,6 +55,7 @@
 		<Item Name="CalculateEmptyCaseStructureSizePosition.vi" Type="VI" URL="../SubVIs/CalculateEmptyCaseStructureSizePosition.vi"/>
 		<Item Name="CalculateTerminalVerticalCentre.vi" Type="VI" URL="../SubVIs/CalculateTerminalVerticalCentre.vi"/>
 		<Item Name="CheckForExistingErrorControl.vi" Type="VI" URL="../SubVIs/CheckForExistingErrorControl.vi"/>
+		<Item Name="CheckIfTerminalConnected.vi" Type="VI" URL="../SubVIs/CheckIfTerminalConnected.vi"/>
 		<Item Name="CreateErrorControls.vi" Type="VI" URL="../SubVIs/CreateErrorControls.vi"/>
 		<Item Name="DrawCaseStructureAroundSpecified.vi" Type="VI" URL="../SubVIs/DrawCaseStructureAroundSpecified.vi"/>
 		<Item Name="FilterAndCloseSpecifiedReferences.vi" Type="VI" URL="../SubVIs/FilterAndCloseSpecifiedReferences.vi"/>
