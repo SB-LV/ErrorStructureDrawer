@@ -51,6 +51,7 @@
 		<Item Name="AlignSubGroupOfControls.vi" Type="VI" URL="../SubVIs/AlignSubGroupOfControls.vi"/>
 		<Item Name="CalculateBoundingBox.vi" Type="VI" URL="../SubVIs/CalculateBoundingBox.vi"/>
 		<Item Name="CalculateCaseStructureBorders.vi" Type="VI" URL="../SubVIs/CalculateCaseStructureBorders.vi"/>
+		<Item Name="CalculateCaseStructureBoundingBox.vi" Type="VI" URL="../SubVIs/CalculateCaseStructureBoundingBox.vi"/>
 		<Item Name="CalculateCS_TerminalHalfHeight.vi" Type="VI" URL="../SubVIs/CalculateCS_TerminalHalfHeight.vi"/>
 		<Item Name="CalculateDummyCaseStructureSize.vi" Type="VI" URL="../SubVIs/CalculateDummyCaseStructureSize.vi"/>
 		<Item Name="CalculateEmptyCaseStructureSizePosition.vi" Type="VI" URL="../SubVIs/CalculateEmptyCaseStructureSizePosition.vi"/>
