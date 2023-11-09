@@ -24,6 +24,7 @@
 		</Item>
 		<Item Name="ConnectorPaneTerminalInfo.ctl" Type="VI" URL="../Controls/ConnectorPaneTerminalInfo.ctl"/>
 		<Item Name="ErrorTerminals.ctl" Type="VI" URL="../Controls/ErrorTerminals.ctl"/>
+		<Item Name="TunnelPosition.ctl" Type="VI" URL="../Controls/TunnelPosition.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Accessors" Type="Folder">
