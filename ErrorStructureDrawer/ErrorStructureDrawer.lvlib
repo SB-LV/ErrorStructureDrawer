@@ -17,6 +17,7 @@
 			<Item Name="CaseStructureInnerWhitespace.ctl" Type="VI" URL="../Controls/CaseStructureInnerWhitespace.ctl"/>
 			<Item Name="CaseStructureOuterWhitespace.ctl" Type="VI" URL="../Controls/CaseStructureOuterWhitespace.ctl"/>
 			<Item Name="CaseStructureSizeIfBD_Empty.ctl" Type="VI" URL="../Controls/CaseStructureSizeIfBD_Empty.ctl"/>
+			<Item Name="ControlConstants.ctl" Type="VI" URL="../Controls/ControlConstants.ctl"/>
 			<Item Name="ErrorControlConfig.ctl" Type="VI" URL="../Controls/ErrorControlConfig.ctl"/>
 			<Item Name="ErrorControlType.ctl" Type="VI" URL="../Controls/ErrorControlType.ctl"/>
 			<Item Name="ErrorStructureDrawerSettings.ctl" Type="VI" URL="../Controls/ErrorStructureDrawerSettings.ctl"/>
@@ -24,7 +25,6 @@
 		</Item>
 		<Item Name="ConnectorPaneTerminalInfo.ctl" Type="VI" URL="../Controls/ConnectorPaneTerminalInfo.ctl"/>
 		<Item Name="ErrorTerminals.ctl" Type="VI" URL="../Controls/ErrorTerminals.ctl"/>
-		<Item Name="TunnelPosition.ctl" Type="VI" URL="../Controls/TunnelPosition.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Accessors" Type="Folder">
@@ -42,6 +42,7 @@
 				<Item Name="GetErrorIndicatorHorizSpacingBD.vi" Type="VI" URL="../SubVIs/GetErrorIndicatorHorizSpacingBD.vi"/>
 				<Item Name="GetErrorStructureInnerWhitespace.vi" Type="VI" URL="../SubVIs/GetErrorStructureInnerWhitespace.vi"/>
 				<Item Name="GetErrorStructureConstants.vi" Type="VI" URL="../SubVIs/GetErrorStructureConstants.vi"/>
+				<Item Name="GetControlConstants.vi" Type="VI" URL="../SubVIs/GetControlConstants.vi"/>
 			</Item>
 			<Item Name="ErrorDrawerSettingsFGV.vi" Type="VI" URL="../SubVIs/ErrorDrawerSettingsFGV.vi"/>
 			<Item Name="GetErrorStructureSize.vi" Type="VI" URL="../SubVIs/GetErrorStructureSize.vi"/>
@@ -49,6 +50,7 @@
 		</Item>
 		<Item Name="AlignControlSelection.vi" Type="VI" URL="../SubVIs/AlignControlSelection.vi"/>
 		<Item Name="AlignSubGroupOfControls.vi" Type="VI" URL="../SubVIs/AlignSubGroupOfControls.vi"/>
+		<Item Name="AlignTunnelsToControls.vi" Type="VI" URL="../SubVIs/AlignTunnelsToControls.vi"/>
 		<Item Name="CalculateBoundingBox.vi" Type="VI" URL="../SubVIs/CalculateBoundingBox.vi"/>
 		<Item Name="CalculateCaseStructureBorders.vi" Type="VI" URL="../SubVIs/CalculateCaseStructureBorders.vi"/>
 		<Item Name="CalculateCaseStructureBoundingBox.vi" Type="VI" URL="../SubVIs/CalculateCaseStructureBoundingBox.vi"/>
