@@ -1,4 +1,4 @@
 
 Error Structure Drawer
 
-This is version 2.6.0 of the tool
+This is version 2.6.1 of the tool
