@@ -24,7 +24,9 @@
 			<Item Name="GetSetCommand.ctl" Type="VI" URL="../Controls/GetSetCommand.ctl"/>
 		</Item>
 		<Item Name="ConnectorPaneTerminalInfo.ctl" Type="VI" URL="../Controls/ConnectorPaneTerminalInfo.ctl"/>
+		<Item Name="ControlIndicatorAlignment.ctl" Type="VI" URL="../Controls/ControlIndicatorAlignment.ctl"/>
 		<Item Name="ErrorTerminals.ctl" Type="VI" URL="../Controls/ErrorTerminals.ctl"/>
+		<Item Name="LabelAlignment.ctl" Type="VI" URL="../Controls/LabelAlignment.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Accessors" Type="Folder">
@@ -66,14 +68,17 @@
 		<Item Name="FilterWiresByConnectedTerminals.vi" Type="VI" URL="../SubVIs/FilterWiresByConnectedTerminals.vi"/>
 		<Item Name="FindLowerCornerConnectorPaneTerminals.vi" Type="VI" URL="../SubVIs/FindLowerCornerConnectorPaneTerminals.vi"/>
 		<Item Name="GetAllBD-refs.vi" Type="VI" URL="../SubVIs/GetAllBD-refs.vi"/>
+		<Item Name="GetControlLabelAlignmentType.vi" Type="VI" URL="../SubVIs/GetControlLabelAlignmentType.vi"/>
 		<Item Name="GetDefaultControlType.vi" Type="VI" URL="../SubVIs/GetDefaultControlType.vi"/>
 		<Item Name="GetTopLevelControlTerminalRefs.vi" Type="VI" URL="../SubVIs/GetTopLevelControlTerminalRefs.vi"/>
 		<Item Name="MoveTerminalsToBottom.vi" Type="VI" URL="../SubVIs/MoveTerminalsToBottom.vi"/>
 		<Item Name="PadCaseStructure.vi" Type="VI" URL="../SubVIs/PadCaseStructure.vi"/>
 		<Item Name="RepositionErrorTerminalsVertically.vi" Type="VI" URL="../SubVIs/RepositionErrorTerminalsVertically.vi"/>
 		<Item Name="RepositionItemsWithinCaseStructure.vi" Type="VI" URL="../SubVIs/RepositionItemsWithinCaseStructure.vi"/>
+		<Item Name="SelectControlsAlignmentType.vi" Type="VI" URL="../SubVIs/SelectControlsAlignmentType.vi"/>
 		<Item Name="SelectErrorControlType.vi" Type="VI" URL="../SubVIs/SelectErrorControlType.vi"/>
 		<Item Name="SelectErrorIndicatorType.vi" Type="VI" URL="../SubVIs/SelectErrorIndicatorType.vi"/>
+		<Item Name="SelectIndicatorAlignmentType.vi" Type="VI" URL="../SubVIs/SelectIndicatorAlignmentType.vi"/>
 		<Item Name="SeperateControlIndicatorRefs.vi" Type="VI" URL="../SubVIs/SeperateControlIndicatorRefs.vi"/>
 		<Item Name="TidyOverlappingWires.vi" Type="VI" URL="../SubVIs/TidyOverlappingWires.vi"/>
 		<Item Name="TidyOverlappingWiresSubVi.vi" Type="VI" URL="../SubVIs/TidyOverlappingWiresSubVi.vi"/>
