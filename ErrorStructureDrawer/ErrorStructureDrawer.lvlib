@@ -75,6 +75,8 @@
 		<Item Name="SelectErrorControlType.vi" Type="VI" URL="../SubVIs/SelectErrorControlType.vi"/>
 		<Item Name="SelectErrorIndicatorType.vi" Type="VI" URL="../SubVIs/SelectErrorIndicatorType.vi"/>
 		<Item Name="SeperateControlIndicatorRefs.vi" Type="VI" URL="../SubVIs/SeperateControlIndicatorRefs.vi"/>
+		<Item Name="TidyOverlappingWires.vi" Type="VI" URL="../SubVIs/TidyOverlappingWires.vi"/>
+		<Item Name="TidyOverlappingWiresSubVi.vi" Type="VI" URL="../SubVIs/TidyOverlappingWiresSubVi.vi"/>
 		<Item Name="WireCaseStructure.vi" Type="VI" URL="../SubVIs/WireCaseStructure.vi"/>
 		<Item Name="WireCaseStructureControl.vi" Type="VI" URL="../SubVIs/WireCaseStructureControl.vi"/>
 		<Item Name="WireCaseStructureIndicator.vi" Type="VI" URL="../SubVIs/WireCaseStructureIndicator.vi"/>
