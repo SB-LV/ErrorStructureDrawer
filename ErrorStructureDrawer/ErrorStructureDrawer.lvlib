@@ -69,7 +69,9 @@
 		<Item Name="FindLowerCornerConnectorPaneTerminals.vi" Type="VI" URL="../SubVIs/FindLowerCornerConnectorPaneTerminals.vi"/>
 		<Item Name="GetAllBD-refs.vi" Type="VI" URL="../SubVIs/GetAllBD-refs.vi"/>
 		<Item Name="GetControlLabelAlignmentType.vi" Type="VI" URL="../SubVIs/GetControlLabelAlignmentType.vi"/>
+		<Item Name="GetControlPath.vi" Type="VI" URL="../SubVIs/GetControlPath.vi"/>
 		<Item Name="GetDefaultControlType.vi" Type="VI" URL="../SubVIs/GetDefaultControlType.vi"/>
+		<Item Name="GetIndicatorPath.vi" Type="VI" URL="../SubVIs/GetIndicatorPath.vi"/>
 		<Item Name="GetTopLevelControlTerminalRefs.vi" Type="VI" URL="../SubVIs/GetTopLevelControlTerminalRefs.vi"/>
 		<Item Name="MoveTerminalsToBottom.vi" Type="VI" URL="../SubVIs/MoveTerminalsToBottom.vi"/>
 		<Item Name="PadCaseStructure.vi" Type="VI" URL="../SubVIs/PadCaseStructure.vi"/>
