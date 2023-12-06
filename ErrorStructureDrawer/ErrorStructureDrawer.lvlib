@@ -18,13 +18,14 @@
 			<Item Name="CaseStructureOuterWhitespace.ctl" Type="VI" URL="../Controls/CaseStructureOuterWhitespace.ctl"/>
 			<Item Name="CaseStructureSizeIfBD_Empty.ctl" Type="VI" URL="../Controls/CaseStructureSizeIfBD_Empty.ctl"/>
 			<Item Name="ControlConstants.ctl" Type="VI" URL="../Controls/ControlConstants.ctl"/>
+			<Item Name="ControlIndicatorAlignment.ctl" Type="VI" URL="../Controls/ControlIndicatorAlignment.ctl"/>
 			<Item Name="ErrorControlConfig.ctl" Type="VI" URL="../Controls/ErrorControlConfig.ctl"/>
 			<Item Name="ErrorControlType.ctl" Type="VI" URL="../Controls/ErrorControlType.ctl"/>
 			<Item Name="ErrorStructureDrawerSettings.ctl" Type="VI" URL="../Controls/ErrorStructureDrawerSettings.ctl"/>
 			<Item Name="GetSetCommand.ctl" Type="VI" URL="../Controls/GetSetCommand.ctl"/>
+			<Item Name="ShiftKeyBehaviour.ctl" Type="VI" URL="../Controls/ShiftKeyBehaviour.ctl"/>
 		</Item>
 		<Item Name="ConnectorPaneTerminalInfo.ctl" Type="VI" URL="../Controls/ConnectorPaneTerminalInfo.ctl"/>
-		<Item Name="ControlIndicatorAlignment.ctl" Type="VI" URL="../Controls/ControlIndicatorAlignment.ctl"/>
 		<Item Name="ErrorTerminals.ctl" Type="VI" URL="../Controls/ErrorTerminals.ctl"/>
 		<Item Name="LabelAlignment.ctl" Type="VI" URL="../Controls/LabelAlignment.ctl"/>
 	</Item>
@@ -82,6 +83,7 @@
 		<Item Name="SelectErrorIndicatorType.vi" Type="VI" URL="../SubVIs/SelectErrorIndicatorType.vi"/>
 		<Item Name="SelectIndicatorAlignmentType.vi" Type="VI" URL="../SubVIs/SelectIndicatorAlignmentType.vi"/>
 		<Item Name="SeperateControlIndicatorRefs.vi" Type="VI" URL="../SubVIs/SeperateControlIndicatorRefs.vi"/>
+		<Item Name="ShiftKeySetting.vi" Type="VI" URL="../SubVIs/ShiftKeySetting.vi"/>
 		<Item Name="TidyOverlappingWires.vi" Type="VI" URL="../SubVIs/TidyOverlappingWires.vi"/>
 		<Item Name="TidyOverlappingWiresSubVi.vi" Type="VI" URL="../SubVIs/TidyOverlappingWiresSubVi.vi"/>
 		<Item Name="WireCaseStructure.vi" Type="VI" URL="../SubVIs/WireCaseStructure.vi"/>
