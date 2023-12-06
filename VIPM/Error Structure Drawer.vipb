@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-02-19 19:25:31" Modified_Date="2023-12-06 20:32:42" Creator="Admin" Comments="" ID="67526698ce0ba90bdf74b0a871e26d2c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-02-19 19:25:31" Modified_Date="2023-12-06 20:43:03" Creator="Admin" Comments="" ID="9afdefc783a18753ee262160419f6143">
   <Library_General_Settings>
     <Package_File_Name>Error_Structure_Drawer</Package_File_Name>
-    <Library_Version>2.9.0.7</Library_Version>
+    <Library_Version>2.9.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -143,6 +143,9 @@ The plugin has slightly different functionality depending on what items (if any)
       <Exclusions>
         <Path>Project</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>README.md</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -273,7 +276,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB30E6CEE38B48AE51F92AB274EE1F54</GUID>
+      <GUID>1CD55192FFC17574F6513B5E2B81BB7B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -336,7 +339,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\ErrorStructureDrawer-main.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B5F99F5543608973D151DEA73CB5309C</GUID>
+      <GUID>6941E3FC9C3A221CE6CA07592F5226D8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -539,7 +542,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\Tests\9.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>703021F85FD04F6D04D5D59E9927A916</GUID>
+      <GUID>B92194D778C0D6ED21C675FF0B013769</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -574,7 +577,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\Config\ErrorDrawerConfig.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B6B14602CF3F9E7969A1CC229DE402C</GUID>
+      <GUID>3FB9EDFB2F92686A13559078A64FF662</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1365,7 +1368,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\SubVIs\WireExistingErrorControl.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00F76BB31C988A172C7253D7741444DE</GUID>
+      <GUID>B86F79F4CDF76FAB80C0407A5DC82283</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1400,7 +1403,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B6EE92359DAC01B8CF341B7AADE08DF6</GUID>
+      <GUID>3749ED976F5F74D3E2EDBC4646662C5A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1435,7 +1438,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\Controls</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A3F20CAC7B2D1AB7DC3957ADDCAFE99</GUID>
+      <GUID>5515666EDEBE70A841A685CFF763E580</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1652,7 +1655,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\Controls\LabelAlignment.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9254A1885AC58F33D92F130086B6D3C0</GUID>
+      <GUID>882BE0C431D11DBA5A8CC5F12F7D2D6E</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
