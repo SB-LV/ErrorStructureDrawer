@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-02-19 19:25:31" Modified_Date="2023-12-06 20:43:03" Creator="Admin" Comments="" ID="9afdefc783a18753ee262160419f6143">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-02-19 19:25:31" Modified_Date="2023-12-06 21:16:54" Creator="Admin" Comments="" ID="2cb7fc3e9c4b35f30c1fd1740301bdd8">
   <Library_General_Settings>
     <Package_File_Name>Error_Structure_Drawer</Package_File_Name>
-    <Library_Version>2.9.0.8</Library_Version>
+    <Library_Version>2.9.1.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -276,7 +276,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CD55192FFC17574F6513B5E2B81BB7B</GUID>
+      <GUID>A18EFA9FE6A1758B1499F762EA634DEC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -339,7 +339,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\ErrorStructureDrawer-main.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6941E3FC9C3A221CE6CA07592F5226D8</GUID>
+      <GUID>23AB140E01100CC18C45D97FA184AFCB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -542,7 +542,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\Tests\9.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B92194D778C0D6ED21C675FF0B013769</GUID>
+      <GUID>D8A45BA8DCDB0B85E7BB04207428B8F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -577,7 +577,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\Config\ErrorDrawerConfig.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3FB9EDFB2F92686A13559078A64FF662</GUID>
+      <GUID>8069F910217CD5ABCAE79B3957B8164F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1368,7 +1368,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\SubVIs\WireExistingErrorControl.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B86F79F4CDF76FAB80C0407A5DC82283</GUID>
+      <GUID>A2D0E70CCD5BD4D6BD26FC96BD6BB168</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1403,7 +1403,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3749ED976F5F74D3E2EDBC4646662C5A</GUID>
+      <GUID>7B8E0A1F8A87407AACE0A5AC9D05EDAE</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1438,7 +1438,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\Controls</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5515666EDEBE70A841A685CFF763E580</GUID>
+      <GUID>047391AF56A37F4355C898B360DB6AD2</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1655,7 +1655,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\Controls\LabelAlignment.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>882BE0C431D11DBA5A8CC5F12F7D2D6E</GUID>
+      <GUID>D63D8421BA13C923F2E1125162E740B2</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
