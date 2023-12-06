@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-02-19 19:25:31" Modified_Date="2023-11-29 20:57:32" Creator="Admin" Comments="" ID="703ffa6ff326a3d81a5e0bf181db9201">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-02-19 19:25:31" Modified_Date="2023-12-06 20:32:42" Creator="Admin" Comments="" ID="67526698ce0ba90bdf74b0a871e26d2c">
   <Library_General_Settings>
     <Package_File_Name>Error_Structure_Drawer</Package_File_Name>
-    <Library_Version>2.8.0.6</Library_Version>
+    <Library_Version>2.9.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -28,20 +28,23 @@
     <VI_Package_Configuration_File>Error Structure Drawer.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>A LabVIEW Quick-Drop (QD) plug-in for drawing an error structure on the block diagram.</One_Line_Description_Summary>
-      <Description>A LabVIEW Quick-Drop plug-in for implementing the standard LabVIEW error handling functionality: it draws an error structure around existing elements on the block diagram.
+      <Description>A LabVIEW Quick-Drop plug-in for implementing the common LabVIEW error handling functionality: it creates an error control and terminal if needed, wires them into the connector pane, aligns block diagram terminals, and optionally creates an error structure around existing elements on the block diagram.
 
-The default shortcut from Quick-Drop is
+The default shortcut from Quick-Drop that includes an error structure is
 Ctrl + e
+
+or terminal-only mode is
+Ctrl + shift + e
 
 -----------------------------------------------------------------------------------
 
-Many of the plugin's config settings can be easily modified from within "ErrorDrawerConfig.vi". These settings include the style used for creating error controls, alignment type used for controls and indicators, and the spacings used between various elements.
+Many of the plugin's config settings can be easily modified from within "ErrorDrawerConfig.vi". These settings include the style used for creating error controls, alignment type used for controls and indicators, and the spacings used between various elements. The behaviour of the shift key can also be changed.
 
 -----------------------------------------------------------------------------------
 
 The plugin has slightly different functionality depending on what items (if any) are already on the block diagram, but the general behaviour includes:
 
-- Creates a new case structure around existing block diagram elements.
+- Creates a new case structure around existing block diagram elements (depending on whether shift key pressed)
 - Creates a new error control and error terminal if not already present on the top-level diagram.
 - Moves all control and indicator terminals present on the top-level diagram to position them on the left and right of the new case structure respectively. Also aligns each group.
 - Wires the error control to the new case structure's selector terminal, and wires from the inside of the selector terminal through the error case to the error indicator.
@@ -49,13 +52,7 @@ The plugin has slightly different functionality depending on what items (if any)
       <Copyright>Copyright (c) 2020, Stuart J. Box</Copyright>
       <Packager>Stuart J. Box</Packager>
       <URL/>
-      <Release_Notes>- Add an option to use NXG error controls (only works for versions of LabVIEW with NXG controls available). The plugin's default primary style is to use the default control style used by LabVIEW, with NXG style as the plugin's default secondary style, which is used if the primary style is not found. The plugin's styles can be changed in ErrorDrawerConfig.vi.
-- Add functionality to automatically revert to using Modern error controls if developer's primary and secondary control style choices don't exist.
-- Add automatic option for selecting control and indicator alignment. Automatic selects the recommended alignment type based on LabVIEW's default label positions. For example, it will use "align left" when labels are on the right, and "align right" when labels are on the left. Automatic is now the default alignment option for the plugin. The alignment option can be changed in ErrorDrawerConfig.vi.
-- Improve positioning of wires, particularly in cases where controls or indicators are higher or lower on the block diagram than the rest of the code.
-- Add cleaning of wires inside the case structure that are identified as being at risk of becoming overlapped with other wires as a result of running the plugin.
-- Fix issue where the process fails when either an error control or an error indicator, but not both, is present before running the plugin.
-- Increase default whitespace around and inside the border of the case structure. The plugin's whitespace values can be changed in ErrorDrawerConfig.vi.</Release_Notes>
+      <Release_Notes>Add terminal-only mode: omits creation of an error structure but carries out the other plugin actions (creates error control and indicator if missing, wires them into the connector pane, and aligns all control and indicator terminals on the block diagram). Hold shift key to use terminal-only mode. Shift key behaviour can be reversed in the config VI if desired.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -276,7 +273,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>84CD79E26B672C934B12F5B2E5C9E65A</GUID>
+      <GUID>AB30E6CEE38B48AE51F92AB274EE1F54</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -339,7 +336,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\ErrorStructureDrawer-main.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB91DF51B3EE9D424E29C37106936F3B</GUID>
+      <GUID>B5F99F5543608973D151DEA73CB5309C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -542,7 +539,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\Tests\9.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D8BB5EEB601F238B37612D75E8E97F6</GUID>
+      <GUID>703021F85FD04F6D04D5D59E9927A916</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -577,7 +574,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\Config\ErrorDrawerConfig.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>863681D7475D37D3362B2BB09109160D</GUID>
+      <GUID>8B6B14602CF3F9E7969A1CC229DE402C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1368,7 +1365,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\SubVIs\WireExistingErrorControl.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2016BB21ACF944BFA9584D104B712118</GUID>
+      <GUID>00F76BB31C988A172C7253D7741444DE</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1403,7 +1400,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>096F7F27B4D533B95A4F24205C08A9BE</GUID>
+      <GUID>B6EE92359DAC01B8CF341B7AADE08DF6</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1438,7 +1435,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\Controls</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C38A5A7AF18B67B13C2BA00CF2AFE001</GUID>
+      <GUID>8A3F20CAC7B2D1AB7DC3957ADDCAFE99</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1655,7 +1652,7 @@ The plugin has slightly different functionality depending on what items (if any)
         <Path>..\ErrorStructureDrawer\Controls\LabelAlignment.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DAC1204B624A2F0D2DB1A5136E5ED0BF</GUID>
+      <GUID>9254A1885AC58F33D92F130086B6D3C0</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
